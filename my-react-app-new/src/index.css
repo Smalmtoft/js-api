@@ -1,0 +1,46 @@
+.dogGame{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d7d7d7;
+    height: 100vh;
+    margin: 10px, 20px;
+}
+
+.dogTitle{
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    color: #17415d;
+}
+
+.dogBtn{
+    font-family: "Poppins", sans-serif;
+    background-color: #9ec7e2;
+    color: #17415d;
+    margin: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    max-width: 200px;
+    transition: 0.2s;
+}
+
+.dogBtn:hover{
+    scale: 1.05;
+}
+
+.dogImg{
+    border-radius: 20px;
+    border: 5px solid #17415d;
+    margin-top: 20px;
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+
+}
+
+.dogAmount{
+    font-family: "Poppins", sans-serif;
+    color: #17415d;
+    padding-bottom: 30px;
+}
