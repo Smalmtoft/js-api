@@ -1,8 +1,33 @@
+/*Login and registration*/
+
+.loginPage, .registerPage{
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginForm, .registerForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginInput, .registerInput{
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #e4e4e4;
+    border: none;
+    border-radius: 10px;
+}
+
+
 .dogGame{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #d7d7d7;
+    background-color: #f5f5f5;
     height: 100vh;
     margin: 10px, 20px;
 }
